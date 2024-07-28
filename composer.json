@@ -1,0 +1,11 @@
+{
+    "name": "admin/project1",
+    "description": "test project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Project1\\": "src/"
+        }
+    },
+    "require": {}
+}
