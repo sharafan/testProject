@@ -13,7 +13,7 @@ class DefaultController
 
     public function hello(): void
     {
-        echo "Hello world";
+        echo "Hello duck " . PHP_EOL;
         echo $this->duck->hello();
     }
 }
